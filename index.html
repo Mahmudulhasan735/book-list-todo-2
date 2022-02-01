@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book list</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="book_list">
+        <h1>MS book list</h1>
+        <div class="div_group">
+            <label for="title">Title</label>
+            <input type="text" class="title_input">
+        </div>
+        <div class="div_group">
+            <label for="author">Author</label>
+            <input type="text" class="author_input">
+        </div>
+        <div class="div_group">
+            <label for="year">year</label>
+            <input type="number" class="year_input">
+        </div>
+        <button id="btn">Add Book</button>
+    </div>
+    <table class="table table-striped mt-5 text-center">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody class="book_list">
+
+        </tbody>
+    </table>    
+
+
+    <script src="app.js"></script>
+</body>
+</html>

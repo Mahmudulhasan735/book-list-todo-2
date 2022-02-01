@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+div#book_list {
+    margin: 0 auto;
+    width: 600px;
+}
+
+div#book_list h1 {
+    font-size: 40px;
+    color: #ad2d9d;
+}
+
+.div_group {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 14px;
+}
+
+.div_group label {
+    font-weight: 600;
+    padding: 8px 0px;
+}
+
+.div_group input {
+    padding: 7px 0px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #349936;
+    padding-left: 15px;
+}
+
+.div_group input:focus {
+    border: 1px solid #a72121;
+}
+
+button#btn {
+    padding: 7px 0px;
+    width: 100%;
+    background: #dfca37;
+    border-radius: 30px;
+    margin-top: 30px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid #ddd;
+    outline: none;
+}
+
+.table {
+    width: 600px;
+    margin: 0 auto;
+}
